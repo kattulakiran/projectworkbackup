@@ -1,0 +1,19 @@
+create table accidentclaim
+(policy_id varchar(10) primary key,
+claim_id varchar(10),
+username varchar(10),
+total_amount integer,
+accident_type varchar(20),
+weightage integer);
+insert into accidentclaim values('p001','c001','dinesh',100,'fire',70);
+
+create table theftclaim
+(policy_id varchar(10) primary key,
+username varchar(10),
+total_amount integer,
+date_of_theft date,
+date_of_complaint date,
+fir_number varchar(10),
+police_station_branch varchar(20),
+claim_id varchar(10));
+insert into theftclaim values('p001','dinesh',100,'2018/10/10','2018/10/15','f001','b1','c001');

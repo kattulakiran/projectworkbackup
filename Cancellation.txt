@@ -1,0 +1,10 @@
+use test;
+create table cancellation(
+cancel_id varchar(20),
+customer_id varchar(20),
+policy_id varchar(20),
+total_amt varchar(20),
+registration_date date,
+last_paid_date date,
+cancelled_date date,
+withdraw_amt varchar(20));

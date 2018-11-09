@@ -1,0 +1,13 @@
+create table directpay
+(
+policy_id VARCHAR(100) primary key,
+premium_amount VARCHAR(100) NOT NULL,
+due_date DATE NOT NULL,
+payment_date DATE NOT NULL,
+payment_mode VARCHAR(100) NOT NULL,
+amount_paid VARCHAR(100) NOT NULL,
+payment_id VARCHAR(100) NOT NULL
+);
+
+insert into directpay values('TW180001','350','2018-02-01','2018-01-01','Credit card','100','JAN01001');
+insert into directpay values('FW180002','600','2018-12-01','2018-11-01','Net Banking','200','JAN01002');

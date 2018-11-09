@@ -1,0 +1,20 @@
+use test;
+
+create table register_pay
+( policy_id varchar(20) primary key,
+
+premium_amount varchar(20),
+
+due_date date,
+
+paid_date date,
+
+payment_mode varchar(20),
+
+pay_amount varchar(20),
+payment_id varchar(20),
+next_due_date date);
+
+
+
+

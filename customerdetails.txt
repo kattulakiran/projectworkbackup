@@ -1,0 +1,22 @@
+create table customerdetails
+(
+customer_id VARCHAR(100) NOT NULL,
+name VARCHAR(100) NOT NULL,
+password VARCHAR(100) NOT NULL,
+address VARCHAR(100) NOT NULL,
+city VARCHAR(100) NOT NULL,
+state VARCHAR(100) NOT NULL,
+country VARCHAR(100) NOT NULL,
+pincode VARCHAR(100) NOT NULL,
+email_address VARCHAR(100) NOT NULL,
+gender VARCHAR(100) NOT NULL,
+contact_no VARCHAR(100) NOT NULL,
+dateofbirth DATE NOT NULL
+);
+
+INSERT INTO customerdetails values('CUST124','Navya','abcd','HanumanNagar','Warangal','Telangana','India','506001','navya1.rachamalla@gmail.com','female','8225056031','2015/10/30');
+
+INSERT INTO customerdetails values('CUST125','Kavya','abcd12','Hanamkonda','Warangal','Telangana','India','506002','kavya1.rachamalla@gmail.com','female','8225056075','2018/03/25');
+
+INSERT INTO customerdetails values('CUST126','Tharun','as12','KUC','Hyderabad','Telangana','India','506456','tharun99.rachamalla@gmail.com','male','7545056031','1998/09/11');
+

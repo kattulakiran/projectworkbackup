@@ -1,0 +1,17 @@
+create table Vehicle_details
+(policy_id VARCHAR(100) NOT NULL,
+Vehicle_Owner VARCHAR(100) NOT NULL,
+Vehicle_Registration_State VARCHAR(100) NOT NULL,
+Vehicle_Type VARCHAR(100) NOT NULL,
+Vehicle_Class VARCHAR(100) NOT NULL,
+Manufacturer VARCHAR(100) NOT NULL,
+Model VARCHAR(100) NOT NULL,
+Engine_Number VARCHAR(100) NOT NULL,
+Make_Year BIGINT(10) NOT NULL,
+Registering_location VARCHAR(100) NOT NULL,
+Date_of_Purchase DATE NOT NULL,
+Price BIGINT(10) NOT NULL,
+Premium_amount BIGINT(10) NOT NULL
+);
+
+insert into Vehicle_details values('TW180003','Manu Gangoji','Bhopal','TW','BAJAJ','PULSUR-220R','own','PQR9856',2018,'Madhya Pradesh','2018/05/21',74000,500);
